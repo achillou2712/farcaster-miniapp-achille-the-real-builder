@@ -1,4 +1,4 @@
-import { useFrame } from '@/components/farcaster-provider'
+  import { useFrame } from '@/components/farcaster-provider'
 import { APP_URL } from '@/lib/constants'
 import { useMutation } from '@tanstack/react-query'
 
@@ -56,7 +56,7 @@ export function FarcasterActions() {
             <button
               type="button"
               className="bg-white text-black rounded-md p-2 text-sm"
-              onClick={() => actions?.viewProfile({ fid: 328855 })}
+              onClick={() => actions?.viewProfile({ fid: 902438 })}
             >
               viewProfile
             </button>
