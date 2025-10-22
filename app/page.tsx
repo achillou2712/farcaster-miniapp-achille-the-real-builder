@@ -6,10 +6,10 @@ const frame = {
   version: 'next',
   imageUrl: `${APP_URL}/images/feed.png`,
   button: {
-    title: 'Launch Template',
+    title: 'Launch MiniApp',
     action: {
       type: 'launch_frame',
-      name: 'Trankil Farcaster MiniApp',
+      name: 'Achille Farcaster MiniApp',
       url: APP_URL,
       splashImageUrl: `${APP_URL}/images/splash.png`,
       splashBackgroundColor: '#f7f7f7',
