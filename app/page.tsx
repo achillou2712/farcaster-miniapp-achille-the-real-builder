@@ -19,10 +19,10 @@ const frame = {
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Trankil Farcaster MiniApp',
+    title: 'Achille Farcaster MiniApp',
     openGraph: {
-      title: 'Trankil Farcaster MiniApp',
-      description: 'A template for building mini-apps on Farcaster and Base',
+      title: 'Achille Farcaster MiniApp',
+      description: 'A MiniApp on Farcaster to predict about Base',
     },
     other: {
       'fc:frame': JSON.stringify(frame),
