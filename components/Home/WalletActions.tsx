@@ -44,7 +44,7 @@ export function WalletActions() {
   if (isConnected) {
     return (
       <div className="space-y-4 border border-[#333] rounded-md p-4">
-        <h2 className="text-xl font-bold text-left">Question pool </h2>
+        <h2 className="text-xl font-bold text-left text-[#0052FF]">Base token launch... </h2>
         <div className="flex flex-row space-x-4 justify-start items-start">
           <div className="flex flex-col space-y-4 justify-start">
             <p className="text-sm text-left">
@@ -65,12 +65,12 @@ export function WalletActions() {
                 {/* Question existante */}
                 <div className="flex flex-col space-y-2 border border-[#333] p-4 rounded-md">
                   <h2 className="text-lg font-semibold text-left">
-                    Is Base token launch before November?
+                    before November?
                   </h2>
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleSend('Yes - before November')}
-                      className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                      className="bg-[#0052FF] text-white px-4 py-2 rounded-lg hover:bg-[#0041cc]"
                     >
                       Yes
                     </button>
@@ -83,15 +83,15 @@ export function WalletActions() {
                   </div>
                 </div>
 
-                {/* 1) Is Base token launch before December? */}
+                {/* 1) before December? */}
                 <div className="flex flex-col space-y-2 border border-[#333] p-4 rounded-md">
                   <h2 className="text-lg font-semibold text-left">
-                    Is Base token launch before December?
+                    before December?
                   </h2>
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleSend('Yes - before December')}
-                      className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                      className="bg-[#0052FF] text-white px-4 py-2 rounded-lg hover:bg-[#0041cc]"
                     >
                       Yes
                     </button>
@@ -104,15 +104,15 @@ export function WalletActions() {
                   </div>
                 </div>
 
-                {/* 2) Is Base token launch during Q1 2026? */}
+                {/* 2) during Q1 2026? */}
                 <div className="flex flex-col space-y-2 border border-[#333] p-4 rounded-md">
                   <h2 className="text-lg font-semibold text-left">
-                    Is Base token launch during Q1 2026?
+                    during Q1 2026?
                   </h2>
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleSend('Yes - Q1 2026')}
-                      className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                      className="bg-[#0052FF] text-white px-4 py-2 rounded-lg hover:bg-[#0041cc]"
                     >
                       Yes
                     </button>
@@ -125,15 +125,15 @@ export function WalletActions() {
                   </div>
                 </div>
 
-                {/* 3) Is Base token launch during Q2 2026? */}
+                {/* 3) during Q2 2026? */}
                 <div className="flex flex-col space-y-2 border border-[#333] p-4 rounded-md">
                   <h2 className="text-lg font-semibold text-left">
-                    Is Base token launch during Q2 2026?
+                    during Q2 2026?
                   </h2>
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleSend('Yes - Q2 2026')}
-                      className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                      className="bg-[#0052FF] text-white px-4 py-2 rounded-lg hover:bg-[#0041cc]"
                     >
                       Yes
                     </button>
@@ -146,15 +146,15 @@ export function WalletActions() {
                   </div>
                 </div>
 
-                {/* 4) Is Base token launch during Q3 2026? */}
+                {/* 4) during Q3 2026? */}
                 <div className="flex flex-col space-y-2 border border-[#333] p-4 rounded-md">
                   <h2 className="text-lg font-semibold text-left">
-                    Is Base token launch during Q3 2026?
+                    during Q3 2026?
                   </h2>
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleSend('Yes - Q3 2026')}
-                      className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                      className="bg-[#0052FF] text-white px-4 py-2 rounded-lg hover:bg-[#0041cc]"
                     >
                       Yes
                     </button>
@@ -167,15 +167,15 @@ export function WalletActions() {
                   </div>
                 </div>
 
-                {/* 5) Is Base token launch during Q4 2026? */}
+                {/* 5) during Q4 2026? */}
                 <div className="flex flex-col space-y-2 border border-[#333] p-4 rounded-md">
                   <h2 className="text-lg font-semibold text-left">
-                    Is Base token launch during Q4 2026?
+                    during Q4 2026?
                   </h2>
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleSend('Yes - Q4 2026')}
-                      className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                      className="bg-[#0052FF] text-white px-4 py-2 rounded-lg hover:bg-[#0041cc]"
                     >
                       Yes
                     </button>
