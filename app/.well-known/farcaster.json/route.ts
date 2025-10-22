@@ -11,7 +11,7 @@ export async function GET() {
 },
 "frame": {
 "version": "1",
-"name": "Example Frame",
+"name": "MiniApp Based Predictions",
 "iconUrl": "https://farcaster-miniapp-by-achillebuilder.vercel.app/icon.png",
 "homeUrl": "https://farcaster-miniapp-by-achillebuilder.vercel.app",
 "imageUrl": "https://farcaster-miniapp-by-achillebuilder.vercel.app/image.png",
