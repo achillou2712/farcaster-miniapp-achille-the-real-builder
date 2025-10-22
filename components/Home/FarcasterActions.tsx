@@ -30,7 +30,7 @@ export function FarcasterActions() {
               className="bg-white text-black rounded-md p-2 text-sm"
               onClick={() =>
                 actions?.composeCast({
-                  text: 'Check out this Trankil Farcaster MiniApp Template!',
+                  text: 'Check out this Achille Farcaster MiniApp!',
                   embeds: [`${APP_URL}`],
                 })
               }
