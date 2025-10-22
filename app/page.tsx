@@ -1,15 +1,15 @@
-import App from '@/components/pages/app'
-import { APP_URL } from '@/lib/constants'
+import App from '@components/pages/app'
+import { APP_URL } from '@lib/constants'
 import type { Metadata } from 'next'
 
 const frame = {
   version: 'next',
   imageUrl: `${APP_URL}/images/feed.png`,
   button: {
-    title: 'Launch Template',
+    title: 'Open MiniApp Based Prediction',
     action: {
       type: 'launch_frame',
-      name: 'Achille Farcaster MiniApp',
+      name: 'MiniApp Based Predictions — by Achille',
       url: APP_URL,
       splashImageUrl: `${APP_URL}/images/splash.png`,
       splashBackgroundColor: '#f7f7f7',
@@ -19,10 +19,10 @@ const frame = {
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Achille Farcaster MiniApp',
+    title: 'MiniApp Based Predictions — by Achille',
     openGraph: {
-      title: 'Achille Farcaster MiniApp',
-      description: 'A mini-app on Farcaster',
+      title: 'MiniApp Based Predictions — by Achille',
+      description: 'A Farcaster miniapp on Base to send 0.0001 ETH with a Yes/No message.',
     },
     other: {
       'fc:frame': JSON.stringify(frame),
